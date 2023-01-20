@@ -11,3 +11,12 @@
 11. instaliramo paket za react-ikonice
 12. kreiramo TopCards.jsx komponentu
 13. otvaramo i uredujemo TopCards.jsx komponentu
+14. kreiramo novu BarChart.jsx komponentu 
+15. otvaramo i uredujemo BarChart.jsx komponentu 
+16. kreiramo novu RecentOrders.jsx komponentu
+17. otvaramo i uredujemo RecentOrders.jsx komponentu
+18. u terminalu instaliramo npm chart js pakete npm i --save chart.js react-chartjs-2
+19. kreiramo folder data
+20. unutar fodera data kreiramo data.js fajl
+21. u pages folderu kreiramo components.jsx komponentu
+22. u pages folderu kreiramo orders.jsx komponentu

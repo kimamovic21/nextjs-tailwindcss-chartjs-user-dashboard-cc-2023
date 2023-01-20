@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Header from '@/components/Header';
 import TopCards from '@/components/TopCards';
+import BarChart from '@/components/BarChart';
+import RecentOrders from '@/components/RecentOrders';
 
 export default function Home() {
   return (
@@ -15,6 +17,10 @@ export default function Home() {
       <main className='bg-gray-100 min-h-screen'>
         <Header />
         <TopCards />
+        <div className='grid p-4 md:grid-cols-3 grid-cols-1 gap-4'>
+          <BarChart />
+          <RecentOrders />
+        </div>
       </main>
     </>
   );
@@ -24,3 +30,7 @@ export default function Home() {
 // 1. brisemo nepotrebne HTML elemente
 // 2. importujemo jsx komponente
 // 3. kreiramo i uredujemo nove HTML elemente
+// 4. kreiramo div element
+// 5. unutar tog div elementa dodajemo BarChart i RecentOrders komponente
+// 6. dodajemo klasu div elementu
+
