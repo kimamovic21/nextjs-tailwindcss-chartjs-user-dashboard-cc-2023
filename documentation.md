@@ -18,5 +18,9 @@
 18. u terminalu instaliramo npm chart js pakete npm i --save chart.js react-chartjs-2
 19. kreiramo folder data
 20. unutar fodera data kreiramo data.js fajl
-21. u pages folderu kreiramo components.jsx komponentu
-22. u pages folderu kreiramo orders.jsx komponentu
+21. u pages folderu kreiramo customers.jsx komponentu
+22. otvaramo i uredujemo customers.jsx komponentu
+23. u pages folderu kreiramo orders.jsx komponentu
+24. otvaramo i uredujemo orders.jsx komponentu
+
+
